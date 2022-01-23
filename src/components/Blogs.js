@@ -43,7 +43,6 @@ class Blogs extends Component {
     }
 
     render() {
-        const {usernme, comments} = this.state;
         return (
             <div className="body-content">
                 <div className="blog-section">
