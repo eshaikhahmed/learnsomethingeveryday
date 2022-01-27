@@ -15,13 +15,14 @@ import {
 function App() {
   return (
     <div className="App">
+    <BrowserRouter>
       <nav className="header">
         <div className="menu-bar">
-            <span><a href="/">Home ✍️</a></span>
-            <span><a href="/aboutme">Meet me 👋</a></span>
+            <span><Link to="/">Home ✍️</Link></span>
+            <span><Link to="/aboutme">Meet me 👋</Link></span>
         </div>
       </nav>
-      <BrowserRouter>
+    
         <Switch>
           <Route exact path="/"   >
             <Blogs />
