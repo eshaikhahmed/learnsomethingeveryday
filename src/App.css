@@ -11,7 +11,7 @@ body {
     display: flex;
     align-items: center;
     background-color: black;
-    color: #ffffff;
+    color: #D4D4D4;
     height: 50px;
 }
 
@@ -22,7 +22,7 @@ body {
 .menu-bar span a {
     padding: 10px 10px;
     text-decoration: none;
-    color: #ffffff;
+    color: #D4D4D4;
 }
 
 .body-content {
@@ -34,6 +34,36 @@ body {
     height: 50px;
     align-items: center;
     justify-content: center;
-    color: #ffffff;
+    color: #D4D4D4;
     background-color: black;
+}
+
+.about-me{
+    padding: 1rem 1rem;
+    font-size: 24px;
+    color:#7BDCFE;
+    width:auto;
+    text-align: center;
+}
+
+.about-description{
+    word-wrap: break-word;
+}
+
+.project-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project{
+    color: white;
+    background-color: #2296BC;
+    width: 30%;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.image-section{
+   width:auto;
+   text-align: center;
 }

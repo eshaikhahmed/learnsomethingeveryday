@@ -27,21 +27,6 @@ class Blogs extends Component {
         
     }
 
-     // Fetch the required data using the get() method
-     fetchData() {
-        //database.collection("blogs").get().then((querySnapshot) => {
-             
-            // Loop through the data and store
-            // it in array to display
-            // querySnapshot.forEach(element => {
-            //     var data = element.data();
-            //     //setInfo(arr => [...arr , data]);
-                  
-            // });
-         //   console.log(querySnapshot);
-       // });
-    }
-
     render() {
         return (
             <div className="body-content">
